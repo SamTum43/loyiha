@@ -456,17 +456,17 @@ footer {
         font-size: 13px;
     }
     .bosh_menyu--fixed{
-        /* background-color: #79c471;
+        background-color: #79c471;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-        position: fixed;
+        /* position: fixed; */
         top: 0;
         left: 0;
         right: 0;
-        z-index: 1; */
+        z-index: 1;
     }
     section {
-        /* background: #eee;
-        padding-top: 80px; */
+        background: #eee;
+        /* padding-top: 80px; */
     }
 }
 @media (max-width: 576px) {
