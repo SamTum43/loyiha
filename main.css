@@ -17,7 +17,7 @@ a {
 }
 
 .container {
-    width: 1400px;
+    width: 1200px;
     margin: auto;
 }
 .bosh_menyu {
@@ -343,12 +343,12 @@ footer {
 }
 
 /* ********MEDIA ZAPROS******** */
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
     .container {
-        width: 1200px;
+        width: 1000px;
     }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .container {
         width: 992px;
     }
@@ -385,7 +385,7 @@ footer {
         width: 252px;
     }
     .kitoblar_kolleksiyasi {
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .sayt_haqidagi_malumotlar {
         padding-right: 12px;
@@ -468,13 +468,16 @@ footer {
         background: #eee;
         padding-top: 80px;
     }
+    .kitoblar_kolleksiyasi {
+        margin-left: 20px;
+    }
 }
 @media (max-width: 576px) {
     .container {
         width: 376px;
     }
     .menyular_satri {
-        width: 132px;
+        width: 200px;
     }
     .menyular a {
         font-size: 10px;
