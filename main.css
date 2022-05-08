@@ -458,7 +458,7 @@ footer {
     .bosh_menyu--fixed{
         background-color: #79c471;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-        /* position: fixed; */
+        position: fixed;
         top: 0;
         left: 0;
         right: 0;
@@ -466,7 +466,7 @@ footer {
     }
     section {
         background: #eee;
-        /* padding-top: 80px; */
+        padding-top: 80px;
     }
 }
 @media (max-width: 576px) {
