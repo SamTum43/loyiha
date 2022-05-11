@@ -239,11 +239,11 @@ a {
 .menyular_satri {
     display: flex;
     width: 192px;
-    height: 100%;
+    height: auto;
     background: #fff;
     flex-direction: column;
     align-items: flex-start;
-
+    border-radius: 15px;
 }
 
 .kitoblar_kolleksiyasi {}
@@ -254,14 +254,17 @@ section {
 }
 
 .linee {
-    width: 100%;
+    width: 90%;
     height: 1px;
     background-color: #79c471;
     margin-top: 9px;
+    margin: auto;
+    margin-bottom: 4px;
+    margin-top: 4px;
 }
 
 .menyular {
-    margin-left: 10px;
+    margin-left: 15px;
     padding-top: 15px;
     font-size: 14px;
     transition: 0.5s;
@@ -274,6 +277,7 @@ section {
 
 .menyular:hover {
     border-bottom: 1.5px solid #79c471;
+    transform: translate(-1px, -1%);
 }
 
 .kitoblar_kolleksiyasi {
@@ -282,6 +286,30 @@ section {
     position: relative;
     height: 212px;
     border: 1px solid #79c471;
+    transition: all 0.5s ease-in-out;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.kitoblar_kolleksiyasi:hover{
+    transform: translate(-3px, -3%);
+}
+.yuklab_olish{
+    background-size: 200%;
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    background: linear-gradient(to left, #785ad6, #4aabce, #785ad6);
+    background-size: 200%;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.btn:hover{
+  background-position: right;
+}
+.yuklab_olish a{
+    font-size: 8px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .kitoblar {
@@ -369,7 +397,6 @@ footer {
 .autorizatsiya .menyu1 {
     display: none;
 }
-
 /* ********MEDIA ZAPROS******** */
 @media (max-width: 1200px) {
     .container {
@@ -447,6 +474,9 @@ footer {
     .yuklab_olish a {
         font-size: 14px;
     }
+    .yuklab_olish a{
+        font-size: 8px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -465,6 +495,9 @@ footer {
         align-items: flex-end;
         text-align: end;
         background-color: #79c471;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
     }
 
     .active {
@@ -557,7 +590,7 @@ footer {
     }
 
     .yuklab_olish a {
-        font-size: 13px;
+        font-size: 9px;
     }
 
     .bosh_menyu--fixed {
@@ -628,6 +661,9 @@ footer {
     .yuklab_olish a {
         font-size: 12px;
     }
+    .yuklab_olish a{
+        font-size: 8px;
+    }
 }
 
 @media (max-width: 376px) {
@@ -673,6 +709,7 @@ footer {
     .telefon2 {
         padding-bottom: 6px;
     }
+    
 }
 
 @media (max-width: 300px) {
@@ -694,13 +731,3 @@ footer {
 }
 
 /* ********MEDIA ZAPROS******** */
-.block{
-    width: 50px;
-    height: 50px;
-    background-color: #ff0404;
-}
-.block1{
-    width: 50px;
-    height: 50px;
-    background-color: #04ff21;
-}
