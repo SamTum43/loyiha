@@ -249,7 +249,7 @@ a {
 .kitoblar_kolleksiyasi {}
 
 section {
-    background: #eee;
+    background: #e8e8e8;
     padding-top: 13px;
 }
 
@@ -296,7 +296,7 @@ section {
 .yuklab_olish{
     background-size: 200%;
     margin: 5px;
-    padding: 5px 10px 5px 10px;
+    padding: 0px 10px 5px 10px;
     border-radius: 8px;
     background: linear-gradient(to left, #785ad6, #4aabce, #785ad6);
     background-size: 200%;
@@ -338,12 +338,13 @@ section {
 
 
 .hover_effekt:hover {
-    background-color: #226702cf;
+    background: linear-gradient(to top, #5a67d6cf, #79c471b5, #79c471);
     color: rgb(255, 255, 255);
 }
 
 .kitob_nomu {
     font-size: 12px;
+    font-weight: 900;
     text-transform: uppercase;
     padding-bottom: 15px;
 }
@@ -604,8 +605,7 @@ footer {
     }
 
     section {
-        background: #eee;
-        padding-top: 80px;
+        padding-top: 70px;
     }
 
     .kitoblar_kolleksiyasi {
@@ -731,3 +731,4 @@ footer {
 }
 
 /* ********MEDIA ZAPROS******** */
+
