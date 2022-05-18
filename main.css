@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Myriad Pro';
 
 }
 /* Hover */
@@ -53,6 +54,9 @@ a {
     display: flex;
     align-items: center;
     padding-left: 22px;
+}
+.kirish2 a{
+    color: #fff;
 }
 
 .line:nth-child(4) {
