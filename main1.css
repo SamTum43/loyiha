@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Myriad Pro';
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.abaut{
+    display: flex;
+    padding-bottom: 40px;
+    background-color: #e5e5e5;
+}
+.img_contentlar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about_us h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.about_us p{
+    text-align: center;
+    font-size: 18px;
+    font-style: oblique;
+    padding-bottom: 30px;
+}
+.about_us h3{
+    text-align: center;
+    font-size: 18px;
+}
+.rasm img{
+    width: 297px;
+    height: 297px;
+    border-radius: 15px;
+    
+}
+.rasm{
+    position: absolute;
+}
+.img_content{
+    display: flex;
+    width: 520px;
+}
+.img_content:nth-child(1){
+    padding-bottom: 120px;
+    padding-top: 40px;
+}
+.img_content:nth-child(2){
+    padding-bottom: 120px;
+    padding-top: 40px;
+}
+.img_content:nth-child(3){
+    padding-bottom: 120px;
+    padding-top: 40px;
+}
+.img_content:nth-child(4){
+    padding-bottom: 120px;
+    padding-top: 40px;
+}
+.img_content:nth-child(5){
+    padding-bottom: 120px;
+    padding-top: 40px;
+}
+.img_content:nth-child(6){
+    padding-bottom: 120px;
+    padding-top: 40px;
+}
+.content{
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 90%;
+    z-index: 1;
+    width: 285px;
+    height: 244px;
+    background-color: #fff;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+}
+.content h2{
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif !important;
+    padding-top: 40px;
+}
+.content h3{
+    color: #db545a ;
+    line-height: 1.6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content p{
+    font-style: oblique;
+}
+.sotseeeet{
+    display: flex;
+    margin: auto;
+}
+.sotset{
+    padding-left: 10px;
+}
+.about_us h1 {
+    padding-top: 80px;
+}
+@media (max-width: 576px) {
+    .content {
+        top: 152px;
+        left: 56%;
+         width: 248px;
+        height: 226px;
+    }
+    .img_content:nth-child(1){
+        padding-bottom: 160px;
+        padding-top: 40px;
+    }
+    .img_content:nth-child(2){
+        padding-bottom: 160px;
+        padding-top: 40px;
+    }
+    .img_content:nth-child(3){
+        padding-bottom: 160px;
+        padding-top: 40px;
+    }
+    .img_content:nth-child(4){
+        padding-bottom: 160px;
+        padding-top: 40px;
+    }
+    .img_content:nth-child(5){
+        padding-bottom: 160px;
+        padding-top: 40px;
+    }
+    .img_content:nth-child(6){
+        padding-bottom: 160px;
+        padding-top: 40px;
+    }
+    .about_us h1 {
+        padding-top: 80px;
+        font-size: 25px;
+    }
+    .about_us p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .about_us h3 {
+        font-size: 12px;
+    }
+    .content h2 {
+        font-size: 16px;
+    }
+    .content h3 {
+        font-size: 14px;
+    }
+    .content p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+        width: 300px;
+    }
+    .content {
+        top: 200px;
+        left: 20%;
+        width: 250px;
+        height: 200px;
+    }
+    .rasm img {
+        width: 250px;
+        height: 251px;
+        border-radius: 15px;
+    }
+    .img_content:nth-child(1){
+        padding-bottom: 200px;
+    }
+    .img_content:nth-child(2){
+        padding-bottom: 200px;
+    }
+    .img_content:nth-child(3){
+        padding-bottom: 200px;
+    }
+    .img_content:nth-child(4){
+        padding-bottom: 200px;
+    }
+    .img_content:nth-child(5){
+        padding-bottom: 200px;
+    }
+    .img_content:nth-child(6){
+        padding-bottom: 200px;
+    }
+    
+}
+
+@media (max-width: 300px) {
+
+}
+
